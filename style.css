@@ -1,0 +1,116 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Product card container */
+.product-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Image styling */
+.product-img {
+    width: 100%;
+    height: 300px;
+    
+}
+
+/* Product info section */
+.product-info {
+    padding: 15px;
+}
+.parfum-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem ;
+    margin: 10px;
+}
+/* Product name styling */
+.product-name {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Product description styling */
+.product-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    letter-spacing: 0.63px;
+    
+}
+
+/* Price container */
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling for product price */
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #075327;
+}
+
+/* Styling for old price */
+.old-price {
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Buy button styling */
+.buy-btn {
+    background-color: #034e22;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+   
+}
+
+/* Buy button hover effect */
+.buy-btn:hover {
+    background-color: #0bc057;
+}
+/* Responsive styles */
+@media (max-width: 600px) {
+    .product-card {
+        max-width: 90%;
+    }
+    
+    .product-info {
+        font-size: 1.3rem;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+    }
+
+    .price-container {
+        font-size: 1.2rem;
+    }
+}
+
+
